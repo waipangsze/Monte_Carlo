@@ -1,6 +1,6 @@
 It is 2D-ising model with square lattice.\
 There are some advises for Classical Monte Carlo.
-- To set a number of Markov chain to reduce the error. (mcset) (Q: why and how?)
+- To set a number of Markov chain to reduce the error. (mcset) (Q: why and how?) https://web.northeastern.edu/afeiguin/phys5870/phys5870/node71.html
 - Each Markov chain contains a list of measurements, and takes measurement for evergy Nx*Ny sites. (reduction correlation of measurements)
 - For autocorrection time, we will take all observations of a Markov chain. However, only first finite interval is valid and those datas afterward are noisy. (Q: why?)
 - To select a nice updating scheme.
