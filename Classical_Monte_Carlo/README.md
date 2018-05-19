@@ -16,4 +16,8 @@ The problem of the critical slowing-down affecting local processes is of fundame
 
 For Wolff algorithm:\
 Let's the spin Hamiltonian as\
-![](http://latex.codecogs.com/gif.latex?\H = -J \sum_{i,j} S_i S_j)
+![](http://latex.codecogs.com/gif.latex?H = -J \sum_{i,j} S_i S_j)
+
+- <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
+- <img src="https://latex.codecogs.com/gif.latex?s=\text { sensor reading }  " /> 
+- <img src="https://latex.codecogs.com/gif.latex?P(s | O_t )=\text { Probability of a sensor reading value when sleep onset is observed at a time bin } t " />
