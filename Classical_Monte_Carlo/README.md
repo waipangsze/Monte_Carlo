@@ -4,3 +4,7 @@ There are some advises for Classical Monte Carlo.
 - Each Markov chain contains a list of measurements, and takes measurement for evergy Nx*Ny sites. (reduction correlation of measurements)
 - For autocorrection time, we will take all observations of a Markov chain. However, only first finite interval is valid and those datas afterward are noisy.
 - To select a nice updating scheme. 
+For updating scheme:
+- standard simulation: local update
+- Swendsen-Wang algorithm: cluster update
+
