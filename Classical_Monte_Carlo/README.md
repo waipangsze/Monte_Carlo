@@ -15,9 +15,7 @@ The problem of the critical slowing-down affecting local processes is of fundame
 - z=0.75 for the 3D Ising model, as opposed to z=2.0 for standard simulations.
 
 For Wolff algorithm:\
-Let's the spin Hamiltonian as\
-![](http://latex.codecogs.com/gif.latex?H = -J \sum_{i,j} S_i S_j)
-
-- <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
-- <img src="https://latex.codecogs.com/gif.latex?s=\text { sensor reading }  " /> 
-- <img src="https://latex.codecogs.com/gif.latex?P(s | O_t )=\text { Probability of a sensor reading value when sleep onset is observed at a time bin } t " />
+Let's the spin Hamiltonian as
+- H = -J \sum_{i,j} S_i S_j, J>0 and ferro case
+- To select randomly a site, flip this spin and add it into a cluster C.
+- To find all neighbors of this site except on cluster C, activate it by P = max{0, 1-exp(2 \beta J S_i S_j}
