@@ -23,3 +23,4 @@ Let's the spin Hamiltonian as
 - to find out all possible neighbors
 
 In setting P = max{0, 1-exp(-2 \beta}, the accpectance rate becomes 1.(However, Wolff will take more computation time...)
+- under same conditions, standard takes 1.2 mins and wolff takes 58 mins
