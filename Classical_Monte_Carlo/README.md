@@ -21,3 +21,5 @@ Let's the spin Hamiltonian as
 - To find all neighbors of this site except on cluster C, activate it by P = max{0, 1-exp(-2 \beta}, for ferror case.
 - if activate, then flip this neighbor and put it into cluster C.
 - to find out all possible neighbors
+
+In setting P = max{0, 1-exp(-2 \beta}, the accpectance rate becomes 1.
