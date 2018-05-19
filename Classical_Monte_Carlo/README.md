@@ -1,8 +1,8 @@
 It is 2D-ising model with square lattice.\
 There are some advises for Classical Monte Carlo.
-- To set a number of Markov chain to reduce the error. (mcset)
+- To set a number of Markov chain to reduce the error. (mcset) (Q: why and how?)
 - Each Markov chain contains a list of measurements, and takes measurement for evergy Nx*Ny sites. (reduction correlation of measurements)
-- For autocorrection time, we will take all observations of a Markov chain. However, only first finite interval is valid and those datas afterward are noisy.
+- For autocorrection time, we will take all observations of a Markov chain. However, only first finite interval is valid and those datas afterward are noisy. (Q: why?)
 - To select a nice updating scheme.
 
 For updating scheme:
@@ -19,3 +19,5 @@ Let's the spin Hamiltonian as
 - H = -J \sum_{i,j} S_i S_j, J>0 and ferro case
 - To select randomly a site, flip this spin and add it into a cluster C.
 - To find all neighbors of this site except on cluster C, activate it by P = max{0, 1-exp(2 \beta J S_i S_j}
+- if activate, then flip this neighbor and put it into cluster C.
+- to find out all possible neighbors
