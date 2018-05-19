@@ -22,4 +22,4 @@ Let's the spin Hamiltonian as
 - if activate, then flip this neighbor and put it into cluster C.
 - to find out all possible neighbors
 
-In setting P = max{0, 1-exp(-2 \beta}, the accpectance rate becomes 1.
+In setting P = max{0, 1-exp(-2 \beta}, the accpectance rate becomes 1.(However, Wolff will takes more computation time...)
