@@ -19,7 +19,7 @@ For Wolff algorithm:\
 Let's the spin Hamiltonian as
 - H = -J \sum_{i,j} S_i S_j, J>0 and ferro case
 - To select randomly a site, flip this spin and add it into a cluster C.
-- To find all neighbors of this site except on cluster C, activate it by P = max{0, 1-exp(-2 \beta}, for ferror case.
+- To find all neighbors of this site except on cluster C, activate it by same spin sign and P = max{0, 1-exp(-2 \beta}, for ferror case.
 - if activate, then flip this neighbor and put it into cluster C.
 - to find out all possible neighbors
 - tips: set of cluster C includes all possible sites and set of Remaining includes C but not calculated yet.
