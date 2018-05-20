@@ -22,6 +22,7 @@ Let's the spin Hamiltonian as
 - To find all neighbors of this site except on cluster C, activate it by P = max{0, 1-exp(-2 \beta}, for ferror case.
 - if activate, then flip this neighbor and put it into cluster C.
 - to find out all possible neighbors
+- tips: set of cluster C includes all possible sites and set of Remaining includes C but not calculated yet.
 
 In setting P = max{0, 1-exp(-2 \beta}, the accpectance rate becomes 1.(However, Wolff will take more computation time...)
 - under same conditions, standard takes 1.2 mins and wolff takes 58 mins
